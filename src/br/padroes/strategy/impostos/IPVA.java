@@ -9,10 +9,17 @@ import br.padroes.strategy.Orcamento;
  *
  */
 public class IPVA implements Imposto {
+    
+    private double porcentagem = 0.2;
 
     @Override
     public double calcular(Orcamento orcamento) {
         return orcamento.getValor() * 0.2;
+    }
+    
+    @Override
+    public double getPorcentagem() {
+       return this.porcentagem * 100; 
     }
 
     @Override

@@ -12,6 +12,8 @@ public interface Imposto {
 
     public double calcular(Orcamento orcamento);
     
+    public double getPorcentagem();
+    
     @Override
     public String toString();
 
