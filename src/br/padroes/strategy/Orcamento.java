@@ -22,8 +22,8 @@ public class Orcamento {
         this.valor = valor;
     }
     
-    public void test() {
-        
+    public double test() {
+        return 0;
     }
 
 }
