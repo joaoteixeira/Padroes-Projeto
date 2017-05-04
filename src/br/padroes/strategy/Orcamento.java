@@ -21,5 +21,9 @@ public class Orcamento {
     public void setValor(double valor) {
         this.valor = valor;
     }
+    
+    public void test() {
+        
+    }
 
 }
